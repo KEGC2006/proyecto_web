@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seiko Mods Mazatlán — Modelos</title>
+    <meta
+      name="description"
+      content="Catálogo de modelos personalizados disponibles para entrega o pedido."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-encabezado">
+      <div class="contenedor encabezado-contenido">
+        <a class="marca" href="index.html">Seiko Mods Mazatlán</a>
+        <nav class="navegacion-principal" aria-label="Principal">
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a class="enlace-activo" href="modelos.html">Modelos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="seccion" id="contenido">
+      <div class="contenedor">
+        <h1>Modelos disponibles</h1>
+        <p class="texto-intro">
+          Todos los modelos usan movimiento <strong>NH35</strong> y pasan
+          control de calidad antes de la entrega.
+        </p>
+
+        <section class="rejilla-tarjetas tarjetas-3">
+          <article class="tarjeta-modelo" id="late">
+            <img
+              src="img/whocares.webp"
+              alt="Modelo Who Cares I’m Already Late"
+            />
+            <div class="tarjeta-cuerpo">
+              <h2 class="tarjeta-titulo">Who Cares I’m Already Late</h2>
+              <p>
+                Dial minimalista con tipografía divertida. Bisel verde-dorado y
+                manecillas doradas.
+              </p>
+              <ul class="lista-detalles">
+                <li>Movimiento NH35</li>
+                <li>Resistencia al agua 100 m</li>
+                <li>Cristal zafiro</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tarjeta-modelo" id="fuck">
+            <img src="img/fuck.jpg" alt="Modelo Fuck 9–5" />
+            <div class="tarjeta-cuerpo">
+              <h2 class="tarjeta-titulo">Fuck 9–5</h2>
+              <p>
+                Dial statement con índices aplicados. Ideal para estilo urbano y
+                casual.
+              </p>
+              <ul class="lista-detalles">
+                <li>Movimiento NH35</li>
+                <li>Cristal zafiro abombado</li>
+                <li>Diseño Personalizado</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tarjeta-modelo" id="rootbear">
+            <img src="img/rootbear.webp" alt="Modelo Santos dorado-negro" />
+            <div class="tarjeta-cuerpo">
+              <h2 class="tarjeta-titulo">Santos Dorado-Negro</h2>
+              <p>
+                Inspirado en el clásico con dial negro y detalles dorados.
+                Elegancia atemporal.
+              </p>
+              <ul class="lista-detalles">
+                <li>Movimiento NH35</li>
+                <li>Índices aplicados dorados</li>
+                <li>Brazalete 2 tonos</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pie">
+      <div class="contenedor pie-contenido">
+        <p>&copy; <span id="anio"></span> Seiko Mods Mazatlán.</p>
+        <nav aria-label="Secundario">
+          <a href="servicios.html#proceso">Nuestro proceso</a>
+          <a href="contacto.html#faq">FAQ</a>
+        </nav>
+      </div>
+      <script>
+        document.getElementById("anio").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>

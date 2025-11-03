@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seiko Mods Mazatlán — Inicio</title>
+    <meta
+      name="description"
+      content="Personalización de relojes estilo Seiko Mods en Mazatlán. Modelos, servicios y contacto."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-encabezado">
+      <div class="contenedor encabezado-contenido">
+        <a class="marca" href="index.html" aria-label="Ir al inicio"
+          >Seiko Mods Mazatlán</a
+        >
+        <nav class="navegacion-principal" aria-label="Principal">
+          <ul class="menu">
+            <li><a class="enlace-activo" href="index.html">Inicio</a></li>
+            <li><a href="modelos.html">Modelos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="seccion-hero" aria-label="Presentación">
+        <div class="contenedor hero-grid">
+          <div class="hero-texto">
+            <h1>Relojes personalizados, hechos a tu medida</h1>
+            <p>
+              Diseñamos y armamos <strong>Seiko Mods</strong> con piezas de alta
+              calidad. Elige dial, manecillas, bisel y brazalete para crear tu
+              reloj ideal.
+            </p>
+            <div class="grupo-botones">
+              <a class="boton-primario" href="modelos.html">Ver modelos</a>
+              <a class="boton-secundario" href="servicios.html"
+                >Cómo trabajamos</a
+              >
+            </div>
+          </div>
+          <figure class="hero-imagen">
+            <img
+              src="img/rootbear.webp"
+              width="640"
+              height="420"
+              alt="Reloj personalizado en primer plano con detalles dorados"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="seccion" aria-labelledby="destacados-titulo">
+        <div class="contenedor">
+          <h2 id="destacados-titulo">Modelos destacados</h2>
+          <div class="rejilla-tarjetas">
+            <article class="tarjeta-modelo">
+              <img
+                src="img/whocares.webp"
+                alt="Reloj estilo 'Who Cares I’m Already Late' con dial minimalista"
+              />
+              <div class="tarjeta-cuerpo">
+                <h3 class="tarjeta-titulo">Who Cares I’m Already Late</h3>
+                <p class="tarjeta-texto">
+                  Edición divertida con marcadores alternos. Ideal para un look
+                  casual.
+                </p>
+                <a
+                  class="boton-primario boton-compacto"
+                  href="modelos.html#late"
+                  >Detalles</a
+                >
+              </div>
+            </article>
+            <article class="tarjeta-modelo">
+              <img
+                src="img/fuck.jpg"
+                alt="Reloj estilo 'Fuck 9–5'"
+              />
+              <div class="tarjeta-cuerpo">
+                <h3 class="tarjeta-titulo">Fuck 9–5</h3>
+                <p class="tarjeta-texto">
+                  Edicion estilo santos, Especial para los que no quieren cumplir un horario.
+                </p>
+                <a
+                  class="boton-primario boton-compacto"
+                  href="modelos.html#fuck"
+                  >Detalles</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="seccion seccion-contraste"
+        aria-labelledby="por-que-titulo"
+      >
+        <div class="contenedor">
+          <h2 id="por-que-titulo">¿Por qué elegirnos?</h2>
+          <ul class="lista-razones">
+            <li>
+              <strong>Piezas de calidad</strong>: movimientos NH35, diales
+              premium y acabados precisos.
+            </li>
+            <li>
+              <strong>Garantía local</strong>: soporte en Mazatlán y ajustes
+              menores sin costo inicial.
+            </li>
+            <li>
+              <strong>Entrega segura</strong>: empaques protegidos y seguimiento
+              de envío.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <div class="contenedor pie-contenido">
+        <p>
+          &copy; <span id="anio"></span> Seiko Mods Mazatlán. Todos los derechos
+          reservados.
+        </p>
+        <nav aria-label="Secundario">
+          <a href="servicios.html#garantia">Garantía</a>
+          <a href="contacto.html#faq">FAQ</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+      <script>
+        document.getElementById("anio").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>

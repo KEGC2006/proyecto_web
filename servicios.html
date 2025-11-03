@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seiko Mods Mazatlán — Servicios</title>
+    <meta
+      name="description"
+      content="Servicios de personalización, garantía y mantenimiento para relojes Seiko Mods."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-encabezado">
+      <div class="contenedor encabezado-contenido">
+        <a class="marca" href="index.html">Seiko Mods Mazatlán</a>
+        <nav class="navegacion-principal" aria-label="Principal">
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="modelos.html">Modelos</a></li>
+            <li>
+              <a class="enlace-activo" href="servicios.html">Servicios</a>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="seccion" aria-labelledby="proceso">
+        <div class="contenedor">
+          <h1 id="proceso">Nuestro proceso</h1>
+          <ol class="lista-pasos">
+            <li>
+              <strong>Brief de diseño:</strong> elegimos dial, manecillas, bisel
+              y brazalete.
+            </li>
+            <li>
+              <strong>Armado y pruebas:</strong> hermeticidad, precisión y
+              alineación de bisel.
+            </li>
+            <li>
+              <strong>Entrega y ajustes:</strong> tamaño de brazalete y revisión
+              final.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section
+        class="seccion seccion-contraste"
+        id="garantia"
+        aria-labelledby="garantia-titulo"
+      >
+        <div class="contenedor">
+          <h2 id="garantia-titulo">Garantía</h2>
+          <article class="articulo">
+            <h3>Alcance</h3>
+            <p>
+              Todos nuestros relojes cuentan con
+              <strong>garantía local</strong> por defectos de armado por 90
+              días.
+            </p>
+            <h3>Excepciones</h3>
+            <p>
+              Daños por golpes, agua por manipulación indebida y desgaste normal
+              no están cubiertos.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="seccion" aria-labelledby="mantenimiento">
+        <div class="contenedor">
+          <h2 id="mantenimiento">Mantenimiento</h2>
+          <p>
+            Ofrecemos servicio de limpieza, cambio de cristal y ajuste de
+            precisión bajo cotización.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <div class="contenedor pie-contenido">
+        <p>&copy; <span id="anio"></span> Seiko Mods Mazatlán.</p>
+        <nav aria-label="Secundario">
+          <a href="#garantia">Garantía</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+      <script>
+        document.getElementById("anio").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
